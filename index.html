@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 1vh;
+        border: 4px solid #f0f0f0;
+        padding: 2vh;    
+    }
+
+    #getimg{
+        max-width: 30%;
+        max-height: 50%;
+    }
+
+</style>
+<body>
+    <input id="setnama" type="text" placeholder="Nama.. ">
+    <input id="setbio" type="text" placeholder="Bio.. ">
+    <input id="setimg" type="file">
+    <input id="setall" type="button" value="Submit">
+
+    <h3>Nama: <span id="getnama"></span></h3>
+    <p>Bio: <span id="getbio"></span></p>
+    <img id="getimg" src="" alt="">
+
+    <script src="script.js"></script>
+</body>
+</html>
